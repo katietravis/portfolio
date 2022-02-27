@@ -1,0 +1,58 @@
+#skills .container .section-heading {
+color: white;
+text-align: center;
+padding: 20px;
+margin-bottom: 50px;
+}
+
+/* cards */
+li {
+font-size: 18px;
+color: white;
+font-weight: normal;
+}
+
+.icon { 
+    transition: all .2s ease-in-out; 
+    text-align: center;
+    align-items: center;
+    }
+    
+/* Cards */
+#skills .container {
+    width: 100%;
+    padding: 10px; 
+}
+
+.card-container {
+    align-items: center;
+    padding: 20px;
+}
+
+.card-container-skills {
+    margin-bottom: 15px; 
+    padding: 20px;  
+}
+
+.card-skills {
+    transition: all .3s ease-in-out;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 20px;
+    border: none; 
+    width: 300px;
+    background-color: #414141;
+    padding: 30px;
+    }
+  
+  /* Card states */
+  .card-skills:hover {
+    transform: scale(1.1); 
+    text-decoration: none;
+    color: white;  
+    }
+  
+  .card-skills:active {
+    text-decoration: none;
+    color: white;
+  }

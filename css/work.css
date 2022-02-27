@@ -1,0 +1,207 @@
+/* Header */
+.topnav {    
+  overflow: hidden;
+  font-size: 20px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color:#414141;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:#30ccb9;
+  text-decoration: none;
+  color: white;
+  }
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+#skills .card-text-about li {
+color:#414141;
+text-align: left;
+}
+
+#my-work .container-fluid .section-heading .button {
+  text-align: center;
+}
+
+.my-work .container-fluid .section-heading {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  }
+
+  .jumbotron {
+    align-items: center;
+    }
+
+.container-fluid-content {
+      height: 100%;
+    }
+
+.container-fluid h4 {
+  font-size: 22px;
+  font-weight: bolder;
+  color: #414141; 
+  margin-top: 30px;  
+  }  
+
+.container-fluid h5 {
+  font-size: 25px;
+  font-weight: normal;
+  color: #414141;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.container-fluid {
+  align-items: center;
+  text-align: center; 
+  padding: 50px;
+  height: 100%;
+  width: 100%;    
+  }
+
+/* Cards */
+.card-container {
+  margin-bottom: 15px;
+  width: 100px;
+}
+
+.card-container .card {
+  transition: all .3s ease-in-out;
+  margin: 0 auto;
+  align-items: center;
+  border-radius: 20px;
+  border: none; 
+  width: 600px;
+  padding: 10px;
+  }
+
+/* Card states */
+.card:hover {
+  transform: scale(1.1); 
+  text-decoration: none;
+  color: white;  
+  }
+
+.card:active {
+  text-decoration: none;
+  color: white;
+}
+/* End button states */
+
+  .card-text {
+    color: #414141;
+    font-weight: normal;
+    font-size: 24px;
+    padding: 14px;
+    text-align: center;
+    }
+
+    .card-text-title2 {
+      color: #414141;
+      font-weight: normal;
+      font-size: 20px;     
+      }
+    
+.card-title {
+  color: #414141;
+  font-size: 36px;
+  font-weight: normal;
+  padding: 2px; 
+  text-align: center; 
+}
+
+.card-container .card-text {
+font-size: 20px;
+padding: 14px;
+}
+
+.card-container .card .card-img-top {
+  size: 50%;
+  }
+
+/* Button 2 */
+.button2 {
+  float: center;
+  background-color: #30ccb9;
+  color: white;
+  border: 0;
+  padding: 18px 40px;
+  margin-left: 5px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+  text-decoration: none;
+  border-radius: 5px;
+  }
+
+/* Button states */
+.button2:hover {
+background-color: #1C9C98;
+text-decoration: none;
+  color: white;             
+  }
+
+  /* Button states */
+.button2:active {
+  text-decoration: none;
+  color: white;
+}
+
+/* Button 3 */
+.button3 {
+  float: left;
+  background-color: #30ccb9;
+  color: white;
+  border: 0;
+  padding: 12px 20px;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  }
+
+/* Button states */
+.button3:hover {
+background-color: #1C9C98;
+text-decoration: none;
+color: white;             
+  }
+
+  /* Button states */
+.button3:active {
+  text-decoration: none;
+  color: white;
+}
+
+  /* Button states */
+.button3:active {
+  text-decoration: none;
+  color: white;
+}
+
+/* End button 3 */
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .element {
+    attribute: #;    
+    }
