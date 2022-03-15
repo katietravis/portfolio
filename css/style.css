@@ -247,6 +247,7 @@ h6 {
     font-weight: normal;
     color: #414141;
     text-align: center;
+    padding: 2px;
 }
 
   /* mouse over link */
@@ -308,8 +309,10 @@ li {
     font-size: 19px;
     font-weight: normal;
     margin-left: 16px;
+    margin-top: 16px;
     border-radius: 10px;
     text-decoration: none;
+    display: inline-block;
     }
 
 /* Button states */
