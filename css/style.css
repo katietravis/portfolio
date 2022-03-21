@@ -144,13 +144,73 @@ body, html {
 }
 
 #skills .section-heading {
-    text-align: left;
-    bottom-margin: 50px;
+    text-align: left;    
 }
 
 /* Style typography */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    color: #414141;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+}
+
+h2 {
+    font-size: 28px;
+    color: #414141; 
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+    }
+
+h3 {
+    font-size: 28px;
+    font-weight: normal;
+    color:#414141;
+    text-align: center;
+    padding: 10px;
+    }
+
+.h3-intro {
+    font-size: 28px;
+    font-weight: semibold;
+    color:#414141;
+    text-align: center;
+}
+
+    .card-container .h3 {
+        font-size: 28px;
+        font-weight: normal;
+        color:#414141;
+        text-align: center;
+        padding: 14px;
+        margin-bottom: 20px;
+        }
+
+h4 {
+    font-size: 24px;
+    font-weight: normal;
+    color: white; 
+    }  
+
+h5 {
+    font-size: 22px;
+    font-weight: normal;
+    color: #414141;
+    text-align: center;
+}
+
+h6 {
+    font-size: 22px;
+    font-weight: normal;
+    color: #414141;
+    padding: 30px;
+    text-align: center;
 }
 
 .display {
@@ -170,89 +230,22 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 } 
 
-h1 {
-    color: #414141;
-    font-size: 35px;
-    font-weight: lighter;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-h2 {
-    font-size: 28px;
-    color:#414141;
-    align-content: center;
-    text-align: center;
-    }
-
-h3 {
-    font-size: 28px;
-    font-weight: normal;
-    color:#414141;
-    text-align: center;
-    padding: 14px;
-    }
-
-.h3-intro {
-    font-size: 28px;
-    font-weight: semibold;
-    color:#414141;
-    text-align: center;
-    padding: 14px;
-    margin-bottom: 10px; 
-}
-
-    .card-container .h3 {
-        font-size: 28px;
-        font-weight: normal;
-        color:#414141;
-        text-align: center;
-        padding: 14px;
-        margin-bottom: 20px;
-        }
-
-h4 {
-    font-size: 24px;
-    font-weight: normal;
-    color: white; 
-    padding: 16px;
-    }  
-
-h5 {
-    font-size: 22px;
-    font-weight: normal;
-    color: #414141;
-    text-align: center;
-}
-
-h6 {
-    font-size: 22px;
-    font-weight: normal;
-    color: #414141;
-    padding: 30px;
-    text-align: center;
-}
-
 .disclaimer-text {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: normal;
     color: #414141;
     padding: 20px;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 /* unvisited text link */
 .case-study-text {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: normal;
     color: #414141;
     text-align: center;
-    padding: 2px;
-}
-
-  /* mouse over link */
-.case-study-text:hover {
-    text-decoration: none;
+    margin-top: 5px;
 }
 
 #introduction {
@@ -304,15 +297,14 @@ li {
     font-family: 'Lato', sans-serif;
     background-image: linear-gradient(to left,#1C9C98,#30CCB9);
     color: white;    
-    padding: 16px 45px;
+    padding: 16px 55px;
     align-items: center;
     font-size: 19px;
     font-weight: normal;
-    margin-left: 16px;
-    margin-top: 16px;
     border-radius: 10px;
     text-decoration: none;
     display: inline-block;
+    margin: 5px;
     }
 
 /* Button states */
@@ -336,18 +328,6 @@ border-radius: 10px;
 .card-body {
     text-align: center;
     width: 100%;
-}
-
-.card-thumbnail {
-    text-align: center;
-    width: 50%;
-    padding: 5px;
-}
-
-.card-preview {
-    text-align: center;
-    width: 75%;
-    padding: 16px 20px;
 }
 
 .card-index {
@@ -416,19 +396,8 @@ border-radius: 10px;
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
-    
-    .header a {
-        float: none;
-        display: block;
-        }
 
-    .header-right {
-        float: none;
-        }
 
-    .flex-container {
-        flex-direction: column;
-        }
-    }
 
-    
+
+}     

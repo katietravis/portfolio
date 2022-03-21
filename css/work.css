@@ -75,7 +75,7 @@ text-align: left;
   text-align: center; 
   padding: 50px;
   height: 100%;
-  width: 100%;    
+  width: 90%;    
   }
 
 /* Cards */
@@ -90,7 +90,7 @@ text-align: left;
   align-items: center;
   border-radius: 20px;
   border: none; 
-  padding: 5px;
+  padding: 8px;
   }
 
   .card-container .card-graphics {
@@ -105,7 +105,7 @@ text-align: left;
 .card:hover {
   transform: scale(1.1); 
   text-decoration: none;
-  color: white;  
+  background-color: #d3d3d3;
   }
 
 .card:active {
@@ -125,11 +125,26 @@ text-align: left;
 }
 /* End button states */
 
+.card-container .card-case-study {
+  transition: all .3s ease-in-out;
+  margin: 20px;
+  align-items: center;
+  border-radius: 20px;
+  border: none; 
+  padding: 8px;
+  background-color: white;
+  }
+
+  .card-case-study:hover {
+    transform: scale(1.1); 
+    text-decoration: none;
+    }
+
   .card-text {
     color: #414141;
     font-weight: normal;
     font-size: 24px;
-    padding: 14px;
+    padding: 24px;
     text-align: center;
     }
 
