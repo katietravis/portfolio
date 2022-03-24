@@ -91,15 +91,7 @@ text-align: left;
   border-radius: 20px;
   border: none; 
   padding: 8px;
-  }
-
-  .card-container .card-graphics {
-    transition: all .3s ease-in-out;
-    margin: 10px;
-    align-items: center;
-    border: none; 
-    padding: 0px;
-    }
+}  
 
 /* Card states */
 .card:hover {
@@ -112,6 +104,14 @@ text-align: left;
   text-decoration: none;
   color: white;
 }
+
+.card-container .card-graphics {
+  transition: all .3s ease-in-out;
+  margin: 10px;
+  align-items: center;
+  border: none; 
+  padding: 0px;
+  }
 
 .card-graphics:hover {
   transform: scale(1.1); 
