@@ -52,6 +52,7 @@ text-align: left;
 
 .container-fluid-content {
       height: 100%;
+      background-color: red;
     }
 
 .container-fluid h4 {
@@ -59,6 +60,7 @@ text-align: left;
   font-weight: bolder;
   color: #414141; 
   margin-top: 30px;  
+  height: 100%;
   }  
 
 .container-fluid h5 {
@@ -68,6 +70,7 @@ text-align: left;
   padding: 30px;
   text-align: center;
   margin-bottom: 12px;
+  height: 100%;
 }
 
 .container-fluid {
@@ -75,7 +78,6 @@ text-align: left;
   text-align: center; 
   padding: 50px;
   height: 100%;
-  width: 90%;    
   }
 
 /* Cards */

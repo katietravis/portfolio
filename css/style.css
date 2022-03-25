@@ -10,13 +10,6 @@
     opacity: 1;
     }
 
-    .logo {
-    height: 120px;
-    width: 400px;
-    position: flex;
-    margin-left: 50px;
-    }
-
     /* Style the header nav links */
     .header a {
         float: left;
@@ -70,21 +63,17 @@ body, html {
 
 /* Container for hero image */
 .container { 
-    height: 100%;
     text-align: center;  
     /* Position and center the image to scale nicely on all screens */
-    background-position: center;
     position: relative;
     margin-top: 0px;
     }
 
     #introduction .container { 
         text-align: center;  
-        padding: 50px 50px;
         /* Position and center the image to scale nicely on all screens */
         background-position: center;
         position: relative;
-        width:100px;
         }
 
 #skills .card-text-contact-2 {
