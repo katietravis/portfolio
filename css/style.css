@@ -45,7 +45,6 @@
 body, html {
 
     width: 100%;
-
     font-family: 'Lato', sans-serif;
     background-image: url(../images/white-sand-background.jpg);
     background-repeat: no-repeat;
@@ -129,7 +128,6 @@ h2 {
     color: #414141; 
     align-content: center;
     text-align: center;
-    padding: 20px;
     }
 
 h3 {
@@ -160,20 +158,13 @@ h4 {
     font-size: 24px;
     font-weight: normal;
     color: white; 
+    padding: 10px;
     }  
 
 h5 {
     font-size: 22px;
     font-weight: normal;
     color: #414141;
-    text-align: center;
-}
-
-h6 {
-    font-size: 24px;
-    font-weight: normal;
-    color: #414141;
-    padding: 30px;
     text-align: center;
 }
 
@@ -189,7 +180,7 @@ h6 {
 .display-case-study {
     font-family: 'Lato', sans-serif;
     color:#414141;
-    font-size: 45px;
+    font-size: 38px;
     font-weight: lighter;
     text-align: center;
 } 
@@ -216,7 +207,7 @@ h6 {
 }
 
 #introduction h6 {
-    font-size: 24px;
+    font-size: 28px;
     color:#414141;    
 }
 
@@ -226,7 +217,7 @@ p {
     color:#414141;
     font-weight: normal;
     text-align: center;
-    }
+}
 
 .form-text {
     font-family: 'Lato', sans-serif;
@@ -239,12 +230,6 @@ p {
 .form-group {
     align-items: center;
     position: flex;
-}
-
-.p2 {
-    font-size: 18px;
-    color:#414141;
-    padding: 20px;
 }
 
 li {
@@ -367,7 +352,7 @@ border-radius: 10px;
     .header a {
         float: none;
         display: block;
-        text-align: left;
+        align-items: center;
        }
 
     .header-right {
@@ -376,11 +361,10 @@ border-radius: 10px;
 
     .flex-container {
       flex-direction: column;
-    }
-  
+    }  
 
-    .logo {
-    text-align: center;
+    .logo-container {
+    align-items: center;
     }
   
 }
