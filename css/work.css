@@ -174,34 +174,6 @@ padding: 14px;
 
 /* Button 2 */
 .button2 {
-  float: center;
-  background-color: #30ccb9;
-  color: white;
-  border: 0;
-  padding: 18px 40px;
-  margin-left: 5px;
-  text-align: center;
-  font-size: 20px;
-  font-weight: normal;
-  text-decoration: none;
-  border-radius: 5px;
-  }
-
-/* Button states */
-.button2:hover {
-background-color: #1C9C98;
-text-decoration: none;
-  color: white;             
-  }
-
-  /* Button states */
-.button2:active {
-  text-decoration: none;
-  color: white;
-}
-
-/* Button 3 */
-.button3 {
   float: left;
   background-color: #30ccb9;
   color: white;
@@ -214,20 +186,20 @@ text-decoration: none;
   }
 
 /* Button states */
-.button3:hover {
+.button2:hover {
 background-color: #1C9C98;
 text-decoration: none;
 color: white;             
   }
 
   /* Button states */
-.button3:active {
+.button2:active {
   text-decoration: none;
   color: white;
 }
 
   /* Button states */
-.button3:active {
+.button2:active {
   text-decoration: none;
   color: white;
 }
