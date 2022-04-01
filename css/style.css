@@ -241,7 +241,7 @@ li {
     text-align: left;
 }
 
-/* Button */
+/* Button 1 */
     .button {
     font-family: 'Lato', sans-serif;
     background-image: linear-gradient(to left,#1C9C98,#30CCB9);
@@ -268,7 +268,36 @@ li {
         text-decoration: none;
         color: white;             
         }
-/* End button states */
+/* End button 1 states */
+
+/* Button 2 */
+.button2 {
+    font-family: 'Lato', sans-serif;
+    background-image: linear-gradient(to left,#1C9C98,#30CCB9);
+    color: white;    
+    padding: 16px 55px;
+    align-items: center;
+    font-size: 19px;
+    font-weight: normal;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    }
+
+/* Button states */
+.button2:active {
+    opacity: 0.7;
+    text-decoration: none;
+    color: white;             
+    }
+
+    .button2:hover {
+        opacity: 0.7;
+        text-decoration: none;
+        color: white;             
+        }
+/* End button 2 states */
 
 .card-container {
 border-radius: 10px;
