@@ -166,6 +166,7 @@ h5 {
     font-weight: normal;
     color: #414141;
     text-align: center;
+    margin-bottom: 5px;
 }
 
 .display {
@@ -217,7 +218,7 @@ p {
     color:#414141;
     font-weight: normal;
     text-align: center;
-    padding: 0px;
+    padding: 0;
 }
 
 .form-text {
