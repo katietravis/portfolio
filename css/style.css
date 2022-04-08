@@ -137,6 +137,30 @@ h3 {
     text-align: center;
     padding: 10px;
     }
+    
+    h4 {
+        font-size: 24px;
+        font-weight: normal;
+        color: white; 
+        padding: 2px;
+        text-align: center;
+        }  
+    
+    h5 {
+        font-size: 22px;
+        font-weight: lighter;
+        color: #414141;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    h6 {
+        font-size: 28px;
+        font-weight: bolder;
+        color: #414141;
+        text-align: center;
+        margin-bottom: 5px;
+    }
 
 .h3-intro {
     font-size: 28px;
@@ -153,21 +177,6 @@ h3 {
         padding: 14px;
         margin-bottom: 20px;
         }
-
-h4 {
-    font-size: 24px;
-    font-weight: normal;
-    color: white; 
-    padding: 2px;
-    }  
-
-h5 {
-    font-size: 22px;
-    font-weight: lighter;
-    color: #414141;
-    text-align: center;
-    margin-bottom: 5px;
-}
 
 .display {
     font-family: 'Lato', sans-serif;
@@ -396,6 +405,11 @@ border-radius: 10px;
 
     .logo-container {
     align-items: center;
+    }
+
+    h4 {
+        align-items: center;
+        text-align: center;
     }
   
 }
