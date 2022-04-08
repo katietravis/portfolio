@@ -156,14 +156,14 @@ h3 {
 
 h4 {
     font-size: 24px;
-    font-weight: lighter;
+    font-weight: normal;
     color: white; 
-    padding: 10px;
+    padding: 2px;
     }  
 
 h5 {
     font-size: 22px;
-    font-weight: normal;
+    font-weight: lighter;
     color: #414141;
     text-align: center;
     margin-bottom: 5px;
