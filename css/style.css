@@ -1,5 +1,5 @@
-#logo-container img {
-    width: 100%;
+.logo-container {
+    width: 80%;
     height: auto;
     }
 
@@ -13,40 +13,39 @@
     /* Style the header nav links */
     .header a {
         float: left;
-        color: #414141;
+        color: white;
         text-align: left;
-        padding: 12px;
+        padding: 20px;
         text-decoration: none;
         font-size: 16px;
-        line-height: 25px;
-        border-radius: 4px;
+        line-height: 20px;
+        border-radius: 8px;
         }
-
-        /* Change the background color on mouse-over */
-        .header a:hover {
-            background-color: #1C9C98;
-            color: white;
-            text-decoration: none;
-            }
-
-        /* Style the active/current link*/
-        .header a.active {
-            background-color: #1C9C98;
-            color: white;
-            text-decoration: none;
-            }
-
+    
 /* Format nav links */
 .header-right {
     float: right;
-    padding: 30px;
+    padding: 20px;
     }
+
+    /* Change the background color on mouse-over */
+    .header-right a:hover {
+        background-color: #30CCB9;
+        color: white;
+        text-decoration: none;
+        }
+
+    /* Style the active/current link*/
+    .header-right a.active {
+        color: white;
+        text-decoration: none;
+        }
 
 body, html {
 
     width: 100%;
     font-family: 'Lato', sans-serif;
-    background-image: url(../images/white-marble-background.jpg);
+    background-image: url(../images/teal-paper-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;    
 }
@@ -75,30 +74,6 @@ body, html {
         position: relative;
         }
 
-#skills .card-text-contact-2 {
-        text-align: left;
-        color:#414141;
-        font-size: 20px;
-        padding: 14px;  
-        margin-top: 60px;  
-    }
-
-#skills .card-text-about-2 {
-        text-align: left;
-        color:#414141;
-        font-size: 20px;
-        padding: 14px;  
-        margin-top: 60px;  
-    }
-
-#skills .card-text-about-2 {
-        text-align: left;
-        color:#414141;
-        font-size: 20px;
-        padding: 14px;  
-        margin-top: 60px;  
-    }
-
 .card-about {
     top-margin: 30px;
     width: 100%;
@@ -116,71 +91,46 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    color: #414141;
-    font-size: 40px;
+    color: white;
+    font-size: 28px;
     text-align: center;
-    text-decoration: none;
-    border: none;
 }
 
 h2 {
-    font-size: 28px;
-    color: #414141; 
+    font-size: 22px;
+    color: white; 
     align-content: center;
     text-align: center;
-    }
+     }
 
 h3 {
-    font-size: 28px;
+    font-size: 20px;
     font-weight: normal;
-    color:#414141;
+    color:white;
     text-align: center;
     padding: 10px;
     }
     
-    h4 {
-        font-size: 22px;
-        font-weight: normal;
-        color: white; 
-        padding: 2px;
-        text-align: center;
-        }  
-    
-    h5 {
-        font-size: 22px;
-        font-weight: lighter;
-        color: #414141;
-        text-align: center;
-        margin-bottom: 5px;
-    }
-    
-    h6 {
-        font-size: 28px;
-        font-weight: bolder;
-        color: #414141;
-        text-align: center;
-        margin-bottom: 5px;
-    }
-
-.h3-intro {
-    font-size: 28px;
-    font-weight: semibold;
-    color:#414141;
+h4 {
+    font-size: 12px;
+    font-weight: lighter;
+    color: white; 
+    padding: 2px;
     text-align: center;
-}
+    }  
 
-    .card-container .h3 {
-        font-size: 28px;
-        font-weight: normal;
-        color:#414141;
-        text-align: center;
-        padding: 14px;
-        margin-bottom: 20px;
-        }
-
+h5 {
+    font-size: 11px;
+    font-weight: lighter;
+    color: white; 
+    padding: 2 px;
+    text-align: center;
+    }     
+    
+  
 .display {
     font-family: 'Lato', sans-serif;
-    color:#414141;
+    color:white;
     font-size: 30px;
     font-weight: normal;
     text-align: center;
@@ -189,72 +139,33 @@ h3 {
 
 .display-case-study {
     font-family: 'Lato', sans-serif;
-    color:#414141;
+    color:white;
     font-size: 40px;
     font-weight: lighter;
     text-align: center;
 } 
 
-.disclaimer-text {
-    font-size: 14px;
-    font-weight: normal;
-    color: #414141;
-    padding: 20px;
-    text-align: center;
-    letter-spacing: 2px;
-}
-
 .case-study-text {
     font-size: 15px;
     font-weight: normal;
-    color: #414141;
+    color: white;
     text-align: center;
     margin-top: 5px;
 }
 
-#introduction {
-    align-items: center;
-}
-
-#introduction h6 {
-    font-size: 28px;
-    color:#414141;    
-}
-
 p {
-    font-size: 21px;
-    font-weight: lighter;
-    color:#414141;
+    font-size: 14px;
     font-weight: normal;
+    color: white;
+    padding: 20px;
     text-align: center;
-    padding: 0;
-}
-
-.form-text {
-    font-family: 'Lato', sans-serif;
-    text-align: left;
-    color: #414141;
-    font-size: 18px;
-    font-weight: bolder;
-}
-
-.form-group {
-    align-items: center;
-    position: flex;
-}
-
-li {
-    font-size: 20px;
-    color:#414141;
-    font-weight: lighter;
-    padding: 2px;
-    text-align: left;
+    letter-spacing: normal;
 }
 
 /* Button 1 */
     .button {
     font-family: 'Lato', sans-serif;
-    background-image: linear-gradient(to left,#1C9C98,#30CCB9);
+    background-image: linear-gradient(to left,#30CCB9,#30CCB9);
     color: white;    
     padding: 16px 55px;
     align-items: center;
@@ -268,15 +179,13 @@ li {
 
 /* Button states */
 .button:active {
-    opacity: 0.7;
     text-decoration: none;
     color: white;             
     }
 
     .button:hover {
-        opacity: 0.7;
         text-decoration: none;
-        color: white;             
+        color: white;  
         }
 /* End button 1 states */
 
@@ -364,7 +273,6 @@ border-radius: 10px;
   /* Add a hover effect if you want */
   .fa:hover {
     transform: scale(1.2); 
-    background-color:#1C9C98;
     text-decoration: none;
     color: white;
     }

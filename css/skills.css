@@ -4,10 +4,11 @@
   padding: 20px;
   margin-bottom: 50px;
   }
-  
+   
   /* cards */
   li {
   font-size: 18px;
+  text-align: left;
   color: white;
   font-weight: normal;
   }
@@ -26,7 +27,7 @@
   
   .card-container {
       align-items: center;
-      padding: 10px;
+      padding: 5px;
   }
   
   .card-container-skills {
@@ -36,21 +37,19 @@
   
   .card-skills {
       transition: all .3s ease-in-out;
-      margin: 0 auto;
+      margin: 30px;
       align-items: center;
-      border-radius: 20px;
-      border: none; 
       width: 300px;
-      background:#757575;
+      background: #1C9C98;
       padding: 30px;
       height: 570px;
+      border-radius: 8px;
       }
     
     /* Card states */
     .card-skills:hover {
       transform: scale(1.1); 
       text-decoration: none;
-      color: white;  
       }
     
     .card-skills:active {

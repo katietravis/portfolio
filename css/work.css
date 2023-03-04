@@ -8,7 +8,7 @@
 .topnav a {
   float: right;
   display: block;
-  color:#414141;
+  color:white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -55,57 +55,31 @@ text-align: left;
       padding: 20px;
     }
 
-.container-fluid h4 {
-  font-size: 22px;
-  font-weight: bolder;
-  color: #414141; 
-  margin-top: 30px;  
-  height: 100%;
-  }  
-
-.container-fluid h5 {
-  font-size: 20px;
-  font-weight: normal;
-  color: #414141;
-  padding: 30px;
-  text-align: center;
-  margin-bottom: 12px;
-  height: 100%;
-}
-
 .container-fluid {
   align-items: center;
   text-align: center; 
-  padding: 50px;
+  padding: 30px;
   height: 100%;
   }
 
 /* Cards */
 .card-container {
-  margin-bottom: 15px;
   width: 100px;
 }
 
 .card-container .card {
   transition: all .3s ease-in-out;
   margin: 20px;
-  align-items: center;
   border-radius: 20px;
   border: none; 
-  padding: 8px;
+  padding: 10px;
 }  
 
 /* Card states */
 .card:hover {
   transform: scale(1.1); 
   text-decoration: none;
-  background-color: #d3d3d3;
   }
-
-.card:active {
-  text-decoration: none;
-  color: white;
-}
 
 .card-container .card-graphics {
   transition: all .3s ease-in-out;
@@ -129,12 +103,11 @@ text-align: left;
 
 .card-container .card-case-study {
   transition: all .3s ease-in-out;
-  margin: 20px;
+  margin: 10px;
   align-items: center;
   border-radius: 20px;
   border: none; 
   padding: 8px;
-  background-color: white;
   }
 
   .card-case-study:hover {
@@ -146,15 +119,8 @@ text-align: left;
     color: #414141;
     font-weight: normal;
     font-size: 24px;
-    padding: 24px;
-    text-align: center;
+    text-align: left;
     }
-
-    .card-text-title2 {
-      color: #414141;
-      font-weight: normal;
-      font-size: 20px;     
-      }
     
 .card-title {
   color: #414141;
@@ -166,7 +132,8 @@ text-align: left;
 
 .card-container .card-text {
 font-size: 20px;
-padding: 14px;
+text-align: left;
+letter-spacing: normal;
 }
 
 .card-container .card .card-img-top {
