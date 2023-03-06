@@ -113,7 +113,7 @@ h3 {
     }
     
 h4 {
-    font-size: 12px;
+    font-size: 18px;
     font-weight: lighter;
     color: white; 
     padding: 2px;
@@ -121,12 +121,20 @@ h4 {
     }  
 
 h5 {
-    font-size: 11px;
+    font-size: 16px;
     font-weight: lighter;
     color: white; 
     padding: 2 px;
     text-align: center;
-    }     
+    }
+    
+h6 {
+    font-size: 12px;
+    font-weight: lighter;
+    color: white; 
+    padding: 2 px;
+    text-align: center;
+    }        
     
   
 .display {
@@ -232,6 +240,10 @@ border-radius: 10px;
     text-align: center;
     width: 90%;
     margin: 20px;
+}
+
+.card-project {
+    text-align: center;    
 }
 
 .fieldset {
