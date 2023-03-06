@@ -101,7 +101,8 @@ h2 {
     color: white; 
     align-content: center;
     text-align: center;
-     }
+    font-weight: thin;
+    }
 
 h3 {
     font-size: 20px;
@@ -230,6 +231,7 @@ border-radius: 10px;
 .card-index {
     text-align: center;
     width: 90%;
+    margin: 20px;
 }
 
 .fieldset {

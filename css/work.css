@@ -84,7 +84,6 @@ text-align: left;
 .card-container .card-graphics {
   transition: all .3s ease-in-out;
   margin: 10px;
-  align-items: center;
   border: none; 
   padding: 0px;
   }
