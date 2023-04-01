@@ -15,10 +15,10 @@
         float: left;
         color: white;
         text-align: left;
-        padding: 20px;
+        padding: 22px;
         text-decoration: none;
         font-size: 16px;
-        line-height: 20px;
+        line-height: 10px;
         border-radius: 8px;
         }
     
@@ -171,10 +171,10 @@ p {
     letter-spacing: normal;
 }
 
-/* Button 1 */
+/* Button */
     .button {
     font-family: 'Lato', sans-serif;
-    background-image: linear-gradient(to left,#30CCB9,#30CCB9);
+    background-color: #30CCB9;
     color: white;    
     padding: 16px 55px;
     align-items: center;
@@ -183,7 +183,7 @@ p {
     border-radius: 10px;
     text-decoration: none;
     display: inline-block;
-    margin: 5px;
+    margin: 5px;  
     }
 
 /* Button states */
@@ -194,38 +194,71 @@ p {
 
     .button:hover {
         text-decoration: none;
-        color: white;  
-        }
-/* End button 1 states */
+        color: white; 
+        background-color: #006769;
+        /*background-image: linear-gradient(to left,#30CCB9,#1C9C98);*/
+    }
+/* End button states */
 
 /* Button 2 */
 .button2 {
     font-family: 'Lato', sans-serif;
-    background-image: linear-gradient(to left,#1C9C98,#30CCB9);
-    color: white;    
-    padding: 16px 55px;
+    background-color: #30CCB9;
+    color: white;   
+    float: left; 
+    padding: 10px 28px;
     align-items: center;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: normal;
     border-radius: 10px;
     text-decoration: none;
     display: inline-block;
-    margin: 5px;
+    margin: 5px;  
     }
 
-/* Button states */
+/* Button2 states */
 .button2:active {
-    opacity: 0.7;
     text-decoration: none;
     color: white;             
     }
 
     .button2:hover {
-        opacity: 0.7;
         text-decoration: none;
-        color: white;             
-        }
-/* End button 2 states */
+        color: white; 
+        background-color: #006769;
+        /*background-image: linear-gradient(to left,#30CCB9,#1C9C98);*/
+    }
+/* End button2 states */
+
+/* Button 3 */
+.button3 {
+    font-family: 'Lato', sans-serif;
+    background-color: #30CCB9;
+    color: white;   
+    float: right; 
+    padding: 10px 28px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: normal;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;  
+    }
+
+/* Button3 states */
+.button3:active {
+    text-decoration: none;
+    color: white;             
+    }
+
+    .button3:hover {
+        text-decoration: none;
+        color: white; 
+        background-color: #006769;
+        /*background-image: linear-gradient(to left,#30CCB9,#1C9C98);*/
+    }
+/* End button 3 states */
 
 .card-container {
 border-radius: 10px;
@@ -286,9 +319,10 @@ border-radius: 10px;
   
   /* Add a hover effect if you want */
   .fa:hover {
-    transform: scale(1.2); 
+    /*transform: scale(1.2);*/ 
     text-decoration: none;
     color: white;
+    background-color: #006769;
     }
   
   /* Set a specific color for each brand */
@@ -342,38 +376,5 @@ border-radius: 10px;
         align-items: center;
         position: flex;
     }
-
-    /* Button 3 */
-.button3 {
-    float: left;
-    background-color: #30ccb9;
-    color: white;
-    border: 0;
-    padding: 12px 20px;
-    text-align: center;
-    font-size: 18px;
-    text-decoration: none;
-    border-radius: 5px;
-    }
-  
-  /* Button states */
-  .button3:hover {
-  background-color: #1C9C98;
-  text-decoration: none;
-  color: white;             
-    }
-  
-    /* Button states */
-  .button3:active {
-    text-decoration: none;
-    color: white;
-  }
-  
-    /* Button states */
-  .button3:active {
-    text-decoration: none;
-    color: white;
-  }  
-  /* End button 3 */
-      
+        
 }

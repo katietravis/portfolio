@@ -46,10 +46,6 @@ text-align: left;
   padding: 20px;
   }
 
-  .jumbotron {
-    align-items: center;
-    }
-
 .container-fluid-content {
       height: 100%;
       padding: 20px;
@@ -138,37 +134,3 @@ letter-spacing: normal;
 .card-container .card .card-img-top {
   size: 50%;
   }
-
-/* Button 2 */
-.button2 {
-  float: left;
-  background-color: #30ccb9;
-  color: white;
-  border: 0;
-  padding: 12px 20px;
-  text-align: center;
-  font-size: 18px;
-  text-decoration: none;
-  border-radius: 5px;
-  }
-
-/* Button states */
-.button2:hover {
-background-color: #1C9C98;
-text-decoration: none;
-color: white;             
-  }
-
-  /* Button states */
-.button2:active {
-  text-decoration: none;
-  color: white;
-}
-
-  /* Button states */
-.button2:active {
-  text-decoration: none;
-  color: white;
-}
-
-/* End button 3 */
